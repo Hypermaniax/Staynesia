@@ -1,6 +1,6 @@
 import bandung from "../assets/bandung.jpg";
 import bali from "../assets/bali.jpg";
-import jakarta from "../assets/Jakarta.jpg.";
+import jakarta from "../assets/Jakarta.jpg";
 import lombok from "../assets/lombok.jpg";
 import padang from "../assets/padang.jpg";
 import semarang from "../assets/semarang.jpg";
@@ -31,7 +31,7 @@ export default function Accomodation({ heading, title }) {
             className="relative h-60 rounded-xl overflow-hidden shadow-md w-full bg-pink"
             key={index}
           >
-            <img src={item.url}   className="object-fill w-full h-full" alt="Monas" />
+            <img src={item.url}   className="object-cover object-center w-full h-full" alt={item.url}  />
             <div className="absolute bottom-2 left-2 right-2 text-white text-sm font-semibold flex justify-between ">
               <p>{item.province}</p>
               <p>{item.hotels}</p>
