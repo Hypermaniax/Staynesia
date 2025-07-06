@@ -1,6 +1,6 @@
 import bandung from "../assets/bandung.jpg";
 import bali from "../assets/bali.jpg";
-import jakarta from "../assets/jakarta.jpg";
+import jakarta from "../assets/Jakarta.jpg.";
 import lombok from "../assets/lombok.jpg";
 import padang from "../assets/padang.jpg";
 import semarang from "../assets/semarang.jpg";
